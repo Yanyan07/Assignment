@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import './index.css';
 
-export default function() {
+export default function List() {
 
   const [people, setPeople] = React.useState([]);
   const [languages, setlanguages] = React.useState([]);
